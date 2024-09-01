@@ -1,5 +1,5 @@
 {
-    "name": "asimzarin/sendemail",
+    "name": "asimzareen_pkg/sendmail",
     "description": "this will send email to users and stored data into database",
     "type": "library",
     "license": "MIT",
