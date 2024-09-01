@@ -1,0 +1,27 @@
+{
+    "name": "sendemail/contact",
+    "description": "this will send email to users and stored data into database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Asim Zareen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "SendEmail\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SendEmail\\Contact\\ContactServiceProvider"
+            ]
+           
+        }
+    }
+}
