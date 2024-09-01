@@ -1,5 +1,5 @@
 {
-    "name": "asimzareen/sendmail",
+    "name": "asimzareen/khan/sendmail",
     "description": "this will send email to users and stored data into database",
     "type": "library",
     "license": "MIT",
