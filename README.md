@@ -1,7 +1,7 @@
 # Laravel Email Sender
 
-[![Issues](https://img.shields.io/github/issues/asimzareen_pkg/sendmail?style=flat-square)](https://github.com/asimzareen_pkg/sendmail/issues)
-[![Stars](https://img.shields.io/github/stars/asimzareen_pkg/sendmail?style=flat-square)](https://github.com/asimzareen_pkg/sendmail/stargazers)
+[![Issues](https://img.shields.io/github/issues/asimzareen/laravelPackage?style=flat-square)](https://github.com/asimzareen/laravelPackage/issues)
+[![Stars](https://img.shields.io/github/stars/asimzareen/laravelPackage?style=flat-square)](https://github.com/asimzareen/laravelPackage/stargazers)
 
 ## Description
 
