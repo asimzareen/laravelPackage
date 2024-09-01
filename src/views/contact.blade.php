@@ -36,7 +36,7 @@
 <body>
     <div class="form-container">
         <h1 class="text-center mb-4">Contact Us Vendor!</h1>
-
+<!-- test -->
         @if(request()->has('message'))
     <div class="alert alert-info alert-dismissible fade show" role="alert">
         {{ request()->query('message') }}
