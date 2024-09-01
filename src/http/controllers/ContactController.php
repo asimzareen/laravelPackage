@@ -14,7 +14,8 @@ class ContactController extends Controller
 {
     public function index()
     {
-        return view('contact::contact');
+        // return view('contact::contact');
+        return view('contact');
     }
     public function send(Request $req)
     {
@@ -24,7 +25,7 @@ class ContactController extends Controller
             $successMessage = 'Email sent successfully to user!';
             Log::info('User record created: ', ['message' => $successMessage]);
             session::put('success','User record created successfully!');
-            return view('contact::contact', compact('successMessage'));     
+            return view('contact', compact('successMessage'));     
          } catch (\Exception $e) {
             $errorMessage = 'Failed to send email. Please try again later.';
             Log::info('Error occurred: ', ['error' => $errorMessage]);
