@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 Route::group(['namespace' => 'SendEmail\Contact\Http\Controllers'], function () {
-    Route::get('msg', 'ContactController@index')->name('msg');
+    Route::get('contact', 'ContactController@index')->name('contact');
     Route::post('message', 'ContactController@send')->name('message');
 
     Route::get('test', function () {
